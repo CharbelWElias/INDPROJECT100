@@ -192,7 +192,7 @@ elif selected_page == 'Correlation Analysis':
     # Perform Correlation Analysis in the Second Column
     with col2:
         st.markdown("## Correlation Differential")
-        st.markdown("""select a **DIFFERENT** year combination than Correlation Matrix to visualize the results  
+        st.markdown("""select a **DIFFERENT** year combination than Correlation Matrix  
             ***For example select start year to be 2019 and end year to be 2023:***""""")
         
         inferred_start_year2 = st.selectbox('Select Start Year', available_years, index=0, key='inferred_start_year2')
